@@ -1,0 +1,16 @@
+Description:
+    bsam-app
+    
+Resources:
+    VideoPlayNodejs:
+        Type: BCE::Serverless::Function
+        Properties:
+            CodeUri: video-play-nodejs/
+            Handler: index.handler
+            Runtime: nodejs8.5
+            Environment:
+                Variables:
+                    PARAM1: VALUE
+            Events:
+                HelloDuerOS:
+                    Type: DuerOS

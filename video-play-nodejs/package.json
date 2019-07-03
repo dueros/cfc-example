@@ -1,0 +1,15 @@
+{
+  "name": "video-play",
+  "version": "1.0.0",
+  "description": "视频播放技能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yelvye@baidu.com",
+  "license": "ISC",
+  "dependencies": {
+    "bot-sdk": "^1.2.15",
+    "node-uuid": "^1.4.8"
+  }
+}
